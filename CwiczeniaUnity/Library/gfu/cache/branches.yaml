@@ -13,28 +13,55 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2022-10-18T14:36:07.332+02:00
-  initializedAtString: 2022-10-18T14:35:54.338+02:00
-  localBranches: []
-  remoteBranches: []
+  lastUpdatedAtString: 2022-10-21T14:29:42.354+02:00
+  initializedAtString: 2022-10-21T14:23:15.057+02:00
+  localBranches:
+  - name: lab
+    tracking: 
+  - name: main
+    tracking: origin/main
+  remoteBranches:
+  - name: origin/HEAD
+    tracking: '[None]'
   remotes:
   - name: origin
-    url: https://github.com/WITbb1/cwunity.git
+    url: https://github.com/WITbb1/gr4_cw_unity_balicki.git
     login: 
     user: 
     host: 
     function: 0
     token: 
   localConfigBranches:
-    keys: []
-    values: []
+    keys:
+    - lab
+    - main
+    values:
+    - name: lab
+      remote:
+        name: 
+        url: 
+      trackingBranch: 
+    - name: main
+      remote:
+        name: origin
+        url: https://github.com/WITbb1/gr4_cw_unity_balicki.git
+      trackingBranch: main
   remoteConfigBranches:
-    keys: []
-    subKeys: []
-    subKeyValues: []
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - HEAD
+    subKeyValues:
+    - Values:
+      - name: HEAD
+        remote:
+          name: origin
+          url: https://github.com/WITbb1/gr4_cw_unity_balicki.git
+        trackingBranch: 
   configRemotes:
     keys:
     - origin
     values:
     - name: origin
-      url: https://github.com/WITbb1/cwunity.git
+      url: https://github.com/WITbb1/gr4_cw_unity_balicki.git

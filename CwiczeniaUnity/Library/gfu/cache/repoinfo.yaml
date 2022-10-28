@@ -13,26 +13,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2022-10-18T14:36:07.338+02:00
-  initializedAtString: 2022-10-18T14:35:53.432+02:00
+  lastUpdatedAtString: 2022-10-21T15:12:48.505+02:00
+  initializedAtString: 2022-10-21T15:12:48.505+02:00
   currentGitRemote:
     name: origin
-    url: https://github.com/WITbb1/cwunity.git
+    url: https://github.com/WITbb1/gr4_cw_unity_balicki.git
     login: 
     user: 
     host: 
     function: 0
     token: 
   currentGitBranch:
-    name: main
-    tracking: origin/main
+    name: lab
+    tracking: 
   currentConfigBranch:
-    name: main
+    name: lab
     remote:
-      name: origin
-      url: https://github.com/WITbb1/cwunity.git
-    trackingBranch: main
+      name: 
+      url: 
+    trackingBranch: 
   currentConfigRemote:
     name: origin
-    url: https://github.com/WITbb1/cwunity.git
+    url: https://github.com/WITbb1/gr4_cw_unity_balicki.git
   currentHead: 
