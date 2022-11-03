@@ -57,9 +57,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\lab3\script\MoveCubeRotate.cs" />
+    <Compile Include="Assets\lab4\LookAround.cs" />
     <Compile Include="Assets\lab3\script\move.cs" />
     <Compile Include="Assets\lab3\script\MoveCube.cs" />
     <Compile Include="Assets\lab3\script\smooth.cs" />
+    <Compile Include="Assets\lab4\PlayerControl.cs" />
+    <Compile Include="Assets\lab4\RandomCube.cs" />
     <Compile Include="Assets\lab3\script\Spawn.cs" />
   </ItemGroup>
   <ItemGroup>

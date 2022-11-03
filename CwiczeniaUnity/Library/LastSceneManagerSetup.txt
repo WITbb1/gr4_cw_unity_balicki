@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/lab3/SCENES/lab3_Smooth.unity
+- path: Assets/lab4/lab4_2.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

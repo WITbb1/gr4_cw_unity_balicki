@@ -121,9 +121,9 @@
 -define:PROBUILDER_EXPERIMENTAL_FEATURES
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"E:/cwunity/CwiczeniaUnity/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
--r:"E:/cwunity/CwiczeniaUnity/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
--r:"E:/cwunity/CwiczeniaUnity/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"E:/gr4_cw_unity_balicki/CwiczeniaUnity/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
+-r:"E:/gr4_cw_unity_balicki/CwiczeniaUnity/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
+-r:"E:/gr4_cw_unity_balicki/CwiczeniaUnity/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"F:/UNITY/2021.3.11f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"F:/UNITY/2021.3.11f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"F:/UNITY/2021.3.11f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -364,6 +364,9 @@
 "Assets/lab3/script/MoveCubeRotate.cs"
 "Assets/lab3/script/smooth.cs"
 "Assets/lab3/script/Spawn.cs"
+"Assets/lab4/LookAround.cs"
+"Assets/lab4/PlayerControl.cs"
+"Assets/lab4/RandomCube.cs"
 -langversion:9.0
 
 /deterministic
