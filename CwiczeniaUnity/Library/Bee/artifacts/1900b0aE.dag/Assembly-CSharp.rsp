@@ -367,6 +367,10 @@
 "Assets/lab4/LookAround.cs"
 "Assets/lab4/PlayerControl.cs"
 "Assets/lab4/RandomCube.cs"
+"Assets/lab6/CollisionDetect.cs"
+"Assets/lab6/Door.cs"
+"Assets/lab6/Elevator.cs"
+"Assets/lab6/MoveWithCharacterController.cs"
 -langversion:9.0
 
 /deterministic

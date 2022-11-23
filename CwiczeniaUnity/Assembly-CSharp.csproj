@@ -64,6 +64,10 @@
     <Compile Include="Assets\lab4\PlayerControl.cs" />
     <Compile Include="Assets\lab4\RandomCube.cs" />
     <Compile Include="Assets\lab3\script\Spawn.cs" />
+    <Compile Include="Assets\lab6\Elevator.cs" />
+    <Compile Include="Assets\lab6\MoveWithCharacterController.cs" />
+    <Compile Include="Assets\lab6\CollisionDetect.cs" />
+    <Compile Include="Assets\lab6\Door.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/lab4/lab4_2.unity
+- path: Assets/lab6/lab6_1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
