@@ -42,10 +42,18 @@ public class MoveWithCharacterController : MonoBehaviour
         controller.Move(playerVelocity * Time.deltaTime);
     }
 
+
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
+        if (hit.gameObject.name == "JumpPlatform")
+        {
+            playerVelocity.y += Mathf.Sqrt(jumpHeight *3 * -3.0f * gravityValue);
+        }
         Rigidbody body = hit.collider.attachedRigidbody;
-
+        if (hit.gameObject.CompareTag("przeszkoda"))
+        {
+            Debug.Log("Wykryto kolizjê z przeszkoda");
+        }
         // no rigidbody
         if (body == null || body.isKinematic)
         {
@@ -67,5 +75,9 @@ public class MoveWithCharacterController : MonoBehaviour
 
         // Apply the push
         body.velocity = pushDir * pushPower;
+
+
+
+
     }
 }
